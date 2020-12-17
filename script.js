@@ -39,3 +39,4 @@ if (currentItem) {
         switchDarkMode(true)
     }
 }
+
