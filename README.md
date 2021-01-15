@@ -1,2 +1,2 @@
 # Light-dark-mode
-Switch dark-light mode, add video and music players.
+Switch dark-light mode, added video and music players. 
