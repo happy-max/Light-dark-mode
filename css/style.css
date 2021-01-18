@@ -99,6 +99,9 @@ a:focus {
 .about-container {
   display: flex;
 }
+#about{
+  text-align: center;
+}
 
 .image-container {
   border: 1px solid var(--secondary-color);
@@ -293,3 +296,59 @@ footer{
   text-align: center;
   margin: 60px 20px 20px;
 }
+
+@media screen and (max-width: 1100px) {
+  h1{
+    font-size: 60px;
+  }
+  .about-container{
+    display: block;
+  }
+  .image-container{
+    margin-top: 20px;
+  
+  }
+}
+@media screen and (max-width: 810px){
+  .theme-switch-wrapper .toggle-text{
+  visibility: hidden;
+}
+.social-icons .fab{
+font-size: 40px;
+margin-right: 0;
+}
+nav{
+  font-size: 12px;
+ 
+}
+nav a{
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+}
+@media screen and (max-width: 500px){
+nav{
+  padding: 15px 20px 10px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+.about-container{
+  width: 95vw;
+}
+.about-container img{
+  width: 100%;
+}
+.image-container{
+  margin: 0;
+}
+.fas{
+  margin: 0;
+}
+}
+
