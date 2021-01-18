@@ -97,9 +97,9 @@ h3 {
   }
 
   .img-container {
-    left: 29px;
+    left: 10vw;
     width: 250px;
-  height: 250px;
+    height: 250px;
   }
 
   h2 {
