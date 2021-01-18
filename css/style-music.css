@@ -91,13 +91,15 @@ h3 {
 }
 
 /* Media Query: iPhone (Vertical) */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 380px) {
   .player-container {
     width: 95vw;
   }
 
   .img-container {
     left: 29px;
+    width: 250px;
+  height: 250px;
   }
 
   h2 {
@@ -110,6 +112,6 @@ h3 {
 
   .player-controls {
     top: -10px;
-    left: 100px;
+    
   }
 }

@@ -220,7 +220,7 @@ select > option {
 }
 
 /* Media Query: Large Smartphone (Vertical) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .player {
     min-width: 0;
     max-width: 95vw;
@@ -253,7 +253,8 @@ select > option {
   .volume-range {
     width: 50px;
     left: 30px;
-    top: -15px;
+    top: -20px;
+    left: 50px;
   }
 
   .speed,
