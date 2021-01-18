@@ -343,9 +343,11 @@ h2{
 }
 .about-container img{
   width: 100%;
+  
 }
 .image-container{
   margin: 0;
+  margin-top: 15px;
 }
 .fas{
   margin: 0;
